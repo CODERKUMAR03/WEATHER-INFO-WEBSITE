@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+.grand{
+  width: 100%;
+  height:200%;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+.color-palette {
+  width:80px;
+  height:500px;
+  background-color:red;
+  padding:5px;
+  border-radius:10px;
+  position:absolute;
+  left:1400px;
+  top:30px;
+  }
+.theme-color,.theme-color1,.theme-color2,.theme-color3,.theme-color4,.theme-color5,.theme-color6{
+  
+  width:60px;
+  height:60px;
+  background-color:lightblue;
+  display:flex;
+  justify-content:center;
+  margin:auto;
+  margin-top:10px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  }
+.theme-color1{
+  background-color:gray;
+  }
+.theme-color2{
+  background-color:yellow;
+  }
+.theme-color3{
+  background-color:pink;
+  }
+.theme-color4{
+  background-color:lightgreen;
+  }
+.theme-color5{
+    background-color:#d9ee5f;
+    }
+.theme-color6{
+      background-color:#8b8bae;
+      }
+  
+.weather-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.location {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.conditions {
+  font-size: 18px;
+  color: #888;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.weather-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.location {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.conditions {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail {
+  flex-basis: 25%;
+}
+
+.detail-label {
+  font-weight: bold;
+}
+.detail-label1 {
+  font-weight: bold;
+  padding-inline: 15px;
+}
+.detail-value {
+  color: #888;
+}
+.weak-temp{
+  padding-inline: 40px;
+  gap: 10px;
+}
+
+
+input[type="text"]
+		{
+			width:300px;
+			height:40px;
+			font-family:arial black;
+			background:white;
+			color:black;
+			text-decoration:none;
+			border:none;
+      position:relative;
+      left:500px;
+      top:-60px;
+		}
+
+.btn{
+  background-color: red;
+  opacity: 0;
+}
